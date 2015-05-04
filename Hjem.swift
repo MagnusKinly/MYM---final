@@ -18,7 +18,7 @@ class Hjem: UIViewController {
     var starPoints: Int = 0
     var oldStarPoints: Int = 100
     var saveAddSundhedsPoint: Int = 0
-    var oldSundhedsPoint: Int = 40
+    var oldSundhedsPoint: Int = 37
     var Sundhedspoint: Int = 0
     var Sundhedspoints: Int = 0
     var bananPris: Int = 10
@@ -27,12 +27,24 @@ class Hjem: UIViewController {
     var secondPrice: Int = 0
     var showImageBeard: Bool = true
     var showImageAfro: Bool = true
+    var hejsa: Int = 39
+    
     
     
     
     //Billeder
      var beard = UIImage(named: "skæg.png") as UIImage!
      var afro = UIImage(named: "AfroCopy") as UIImage!
+     var sadFace = UIImage(named: "MonsterSadCopy") as UIImage!
+    var happyFace = UIImage(named: "MonsterHappy") as UIImage!
+    
+    
+    // GIF
+    
+   
+
+    
+    
     
     
     
@@ -41,6 +53,11 @@ class Hjem: UIViewController {
     @IBOutlet weak var beards: UIButton!
     
     @IBOutlet weak var afros: UIButton!
+    
+    //Billeder til MONSTERHUMØR
+    
+    @IBOutlet weak var monsterSadFace: UIButton!
+    
     
     
     
@@ -55,6 +72,25 @@ class Hjem: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+        /*var filePath = NSBundle.mainBundle().pathForResource("Monster", ofType: "gif")
+        var gif = NSData(contentsOfFile: filePath!)
+        
+        self.view.frame = CGRectMake(10, 113, 300, 294)
+        
+        var webViewBG = UIWebView(frame: self.view.frame)
+        webViewBG.loadData(gif, MIMEType: "image/gif", textEncodingName: nil, baseURL: nil)
+        webViewBG.userInteractionEnabled = false;
+        self.view.addSubview(webViewBG)
+        
+        var filter = UIView()
+        filter.frame = self.view.frame
+       // filter.opaque = NO
+        filter.backgroundColor = UIColor(white: 1, alpha: 0.5)
+        
+        filter.alpha = 0.05
+        self.view.addSubview(filter)*/
         
 
         
@@ -167,10 +203,24 @@ class Hjem: UIViewController {
      
         
         lblsaveStarPoints.text = "\( oldStarPoints + (starPoints) - ((firstPrice) + (secondPrice)))"
-        NSLog("The value of label lblsaveStarPoints is %i", lblsaveStarPoints);
+        
+        NSLog("The value of label lblsaveStarPoints is %i", (oldStarPoints)+(starPoints) - ((firstPrice) + (secondPrice)));
         
         
         lblsundhedsPoint.text = "\(oldSundhedsPoint + (sundhedspointBanan) + (Sundhedspoint))"
+        
+        
+        if  (oldSundhedsPoint) + (sundhedspointBanan) + (Sundhedspoint) > hejsa {
+            
+            monsterSadFace.setImage(UIImage(named: "MonsterHappy"), forState: .Normal)
+            
+        }
+        
+        else {
+        
+        monsterSadFace.setImage(UIImage(named: "MonsterSadCopy"), forState: .Normal)
+        
+        }
         
         
         

@@ -191,19 +191,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monster Blå 5" id="Ex8-2w-pvP">
-                                <rect key="frame" x="63" y="114" width="195" height="274"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uTZ-JK-WuX" userLabel="Monster">
+                                <rect key="frame" x="50" y="113" width="225" height="294"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iRZ-MQ-2q9">
+                                <state key="normal" title="Button" image="MonsterSadCopy">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iRZ-MQ-2q9" userLabel="Skæg">
                                 <rect key="frame" x="96" y="235" width="78" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="skæg">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ot0-HI-b8I" userLabel="Afro">
-                                <rect key="frame" x="74" y="106" width="150" height="111"/>
+                                <rect key="frame" x="63" y="87" width="176" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -218,6 +221,7 @@
                         <outlet property="beards" destination="iRZ-MQ-2q9" id="TAc-vL-dL2"/>
                         <outlet property="lblsaveStarPoints" destination="gYq-01-2wm" id="itM-gf-4hM"/>
                         <outlet property="lblsundhedsPoint" destination="Pgc-EC-NdF" id="9A7-HL-OOL"/>
+                        <outlet property="monsterSadFace" destination="uTZ-JK-WuX" id="HPj-UX-Rto"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hyu-Tf-Fve" sceneMemberID="firstResponder"/>
@@ -236,7 +240,7 @@
                                 <rect key="frame" x="0.0" y="58" width="320" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monster Blå 5" id="KTV-xH-sfX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonsterHappy" id="KTV-xH-sfX">
                                 <rect key="frame" x="124" y="71" width="73" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1302,8 +1306,8 @@
                                     <segue destination="bvH-d3-ed8" kind="modal" id="lNA-j5-qeO"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monster Blå 5" id="kPz-4g-xad">
-                                <rect key="frame" x="16" y="87" width="134" height="171"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonsterHappy" id="kPz-4g-xad">
+                                <rect key="frame" x="16" y="87" width="125" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1320,7 +1324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUa-Rh-v0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="1309"/>
+            <point key="canvasLocation" x="1298" y="1309"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dSX-gA-rjo">
@@ -1372,7 +1376,8 @@
         <image name="KnapLøb" width="320" height="90"/>
         <image name="MELON" width="134" height="148"/>
         <image name="Medalje" width="38" height="67"/>
-        <image name="Monster Blå 5" width="544" height="786"/>
+        <image name="MonsterHappy" width="544" height="786"/>
+        <image name="MonsterSadCopy" width="600" height="858"/>
         <image name="MonsterWalk" width="440" height="621"/>
         <image name="Mørk CYKLING" width="640" height="1136"/>
         <image name="POMMES" width="82" height="97"/>
@@ -1403,6 +1408,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="lNA-j5-qeO"/>
+        <segue reference="uZ7-Wi-kRS"/>
     </inferredMetricsTieBreakers>
 </document>

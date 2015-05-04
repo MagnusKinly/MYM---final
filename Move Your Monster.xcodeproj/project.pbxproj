@@ -13,6 +13,26 @@
 		F74B4B5E1ADD11D600B0C5D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B4B5D1ADD11D600B0C5D9 /* ViewController.swift */; };
 		F74B4B661ADD11D600B0C5D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74B4B641ADD11D600B0C5D9 /* LaunchScreen.xib */; };
 		F74B4B721ADD11D700B0C5D9 /* MonsterstartsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B4B711ADD11D700B0C5D9 /* MonsterstartsideTests.swift */; };
+		F7534BDB1AF7AA6D009D6A7E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BD51AF7AA6D009D6A7E /* Bolts.framework */; };
+		F7534BDC1AF7AA6D009D6A7E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BD61AF7AA6D009D6A7E /* Parse.framework */; };
+		F7534BDD1AF7AA6D009D6A7E /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BD71AF7AA6D009D6A7E /* ParseCrashReporting.framework */; };
+		F7534BDE1AF7AA6D009D6A7E /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BD81AF7AA6D009D6A7E /* ParseFacebookUtils.framework */; };
+		F7534BDF1AF7AA6D009D6A7E /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BD91AF7AA6D009D6A7E /* ParseFacebookUtilsV4.framework */; };
+		F7534BE01AF7AA6D009D6A7E /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BDA1AF7AA6D009D6A7E /* ParseUI.framework */; };
+		F7534BE21AF7AA99009D6A7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BE11AF7AA99009D6A7E /* AudioToolbox.framework */; };
+		F7534BE41AF7AAA4009D6A7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BE31AF7AAA4009D6A7E /* CFNetwork.framework */; };
+		F7534BE61AF7AAAE009D6A7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BE51AF7AAAE009D6A7E /* CoreGraphics.framework */; };
+		F7534BE81AF7AAC5009D6A7E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BE71AF7AAC5009D6A7E /* MobileCoreServices.framework */; };
+		F7534BEA1AF7AACF009D6A7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BE91AF7AACF009D6A7E /* QuartzCore.framework */; };
+		F7534BEC1AF7AADA009D6A7E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BEB1AF7AADA009D6A7E /* Security.framework */; };
+		F7534BEE1AF7AAE4009D6A7E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BED1AF7AAE4009D6A7E /* StoreKit.framework */; };
+		F7534BF01AF7AAED009D6A7E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BEF1AF7AAED009D6A7E /* SystemConfiguration.framework */; };
+		F7534BF21AF7AAF7009D6A7E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BF11AF7AAF7009D6A7E /* libz.dylib */; };
+		F7534BF41AF7AB02009D6A7E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BF31AF7AB02009D6A7E /* libsqlite3.dylib */; };
+		F7534BF61AF7ABD7009D6A7E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BF51AF7ABD7009D6A7E /* Accounts.framework */; };
+		F7534BF81AF7ABDC009D6A7E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7534BF71AF7ABDC009D6A7E /* Social.framework */; };
+		F7534BFA1AF7AE2A009D6A7E /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7534BF91AF7AE2A009D6A7E /* PushNotificationController.swift */; };
+		F75A39131AF62BB000930430 /* Monster.gif in Resources */ = {isa = PBXBuildFile; fileRef = F75A39121AF62BB000930430 /* Monster.gif */; };
 		F77E376A1AED24AD0032CB41 /* Hjem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E37691AED24AD0032CB41 /* Hjem.swift */; };
 		F796164A1AEE7BF800411FD4 /* Indstillinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79616491AEE7BF800411FD4 /* Indstillinger.swift */; };
 		F796165A1AEFECFF00411FD4 /* Shoppen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79616591AEFECFF00411FD4 /* Shoppen.swift */; };
@@ -20,7 +40,6 @@
 		F7C3C2B31AE677D800860329 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C3C2B21AE677D800860329 /* MapKit.framework */; };
 		F7C3C2B61AE780BB00860329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C3C2B41AE780BB00860329 /* Main.storyboard */; };
 		F7DDA8AE1AF0ED06006316E7 /* ShopStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DDA8AD1AF0ED06006316E7 /* ShopStart.swift */; };
-		F7DDA8B21AF21D09006316E7 /* Monster.gif in Resources */ = {isa = PBXBuildFile; fileRef = F7DDA8B11AF21D09006316E7 /* Monster.gif */; };
 		F7E0F2E81AE11894008DEC96 /* GO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E0F2E71AE11894008DEC96 /* GO.swift */; };
 		F7E0F2EA1AE119AC008DEC96 /* Aktiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E0F2E91AE119AC008DEC96 /* Aktiv.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +65,26 @@
 		F74B4B6B1ADD11D700B0C5D9 /* Move Your MonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Move Your MonsterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74B4B701ADD11D700B0C5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74B4B711ADD11D700B0C5D9 /* MonsterstartsideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterstartsideTests.swift; sourceTree = "<group>"; };
+		F7534BD51AF7AA6D009D6A7E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F7534BD61AF7AA6D009D6A7E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F7534BD71AF7AA6D009D6A7E /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		F7534BD81AF7AA6D009D6A7E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		F7534BD91AF7AA6D009D6A7E /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		F7534BDA1AF7AA6D009D6A7E /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		F7534BE11AF7AA99009D6A7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7534BE31AF7AAA4009D6A7E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7534BE51AF7AAAE009D6A7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7534BE71AF7AAC5009D6A7E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7534BE91AF7AACF009D6A7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7534BEB1AF7AADA009D6A7E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7534BED1AF7AAE4009D6A7E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F7534BEF1AF7AAED009D6A7E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7534BF11AF7AAF7009D6A7E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7534BF31AF7AB02009D6A7E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F7534BF51AF7ABD7009D6A7E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F7534BF71AF7ABDC009D6A7E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F7534BF91AF7AE2A009D6A7E /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
+		F75A39121AF62BB000930430 /* Monster.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Monster.gif; path = ../../Monster.gif; sourceTree = "<group>"; };
 		F77E37691AED24AD0032CB41 /* Hjem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hjem.swift; path = ../Hjem.swift; sourceTree = "<group>"; };
 		F79616491AEE7BF800411FD4 /* Indstillinger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indstillinger.swift; sourceTree = "<group>"; };
 		F79616591AEFECFF00411FD4 /* Shoppen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shoppen.swift; path = ../Shoppen.swift; sourceTree = "<group>"; };
@@ -54,7 +93,6 @@
 		F7C3C2B51AE780BB00860329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7C3C3281AE7B88300860329 /* Monsterstartside-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monsterstartside-Bridging-Header.h"; sourceTree = "<group>"; };
 		F7DDA8AD1AF0ED06006316E7 /* ShopStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopStart.swift; sourceTree = "<group>"; };
-		F7DDA8B11AF21D09006316E7 /* Monster.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Monster.gif; path = ../../../Desktop/Monster.gif; sourceTree = "<group>"; };
 		F7E0F2E71AE11894008DEC96 /* GO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GO.swift; sourceTree = "<group>"; };
 		F7E0F2E91AE119AC008DEC96 /* Aktiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aktiv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,8 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C3C2B31AE677D800860329 /* MapKit.framework in Frameworks */,
+				F7534BF81AF7ABDC009D6A7E /* Social.framework in Frameworks */,
+				F7534BF61AF7ABD7009D6A7E /* Accounts.framework in Frameworks */,
+				F7534BF41AF7AB02009D6A7E /* libsqlite3.dylib in Frameworks */,
+				F7534BF21AF7AAF7009D6A7E /* libz.dylib in Frameworks */,
+				F7534BF01AF7AAED009D6A7E /* SystemConfiguration.framework in Frameworks */,
+				F7534BEE1AF7AAE4009D6A7E /* StoreKit.framework in Frameworks */,
+				F7534BEC1AF7AADA009D6A7E /* Security.framework in Frameworks */,
+				F7534BEA1AF7AACF009D6A7E /* QuartzCore.framework in Frameworks */,
+				F7534BE81AF7AAC5009D6A7E /* MobileCoreServices.framework in Frameworks */,
 				F7C3C2B11AE677BF00860329 /* CoreLocation.framework in Frameworks */,
+				F7534BE61AF7AAAE009D6A7E /* CoreGraphics.framework in Frameworks */,
+				F7534BE41AF7AAA4009D6A7E /* CFNetwork.framework in Frameworks */,
+				F7534BE21AF7AA99009D6A7E /* AudioToolbox.framework in Frameworks */,
+				F7534BDB1AF7AA6D009D6A7E /* Bolts.framework in Frameworks */,
+				F7534BDD1AF7AA6D009D6A7E /* ParseCrashReporting.framework in Frameworks */,
+				F7534BDF1AF7AA6D009D6A7E /* ParseFacebookUtilsV4.framework in Frameworks */,
+				F7534BDE1AF7AA6D009D6A7E /* ParseFacebookUtils.framework in Frameworks */,
+				F7C3C2B31AE677D800860329 /* MapKit.framework in Frameworks */,
+				F7534BDC1AF7AA6D009D6A7E /* Parse.framework in Frameworks */,
+				F7534BE01AF7AA6D009D6A7E /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +138,24 @@
 		F74B4B4D1ADD11D600B0C5D9 = {
 			isa = PBXGroup;
 			children = (
+				F7534BF71AF7ABDC009D6A7E /* Social.framework */,
+				F7534BF51AF7ABD7009D6A7E /* Accounts.framework */,
+				F7534BF31AF7AB02009D6A7E /* libsqlite3.dylib */,
+				F7534BF11AF7AAF7009D6A7E /* libz.dylib */,
+				F7534BEF1AF7AAED009D6A7E /* SystemConfiguration.framework */,
+				F7534BED1AF7AAE4009D6A7E /* StoreKit.framework */,
+				F7534BEB1AF7AADA009D6A7E /* Security.framework */,
+				F7534BE91AF7AACF009D6A7E /* QuartzCore.framework */,
+				F7534BE71AF7AAC5009D6A7E /* MobileCoreServices.framework */,
+				F7534BE51AF7AAAE009D6A7E /* CoreGraphics.framework */,
+				F7534BE31AF7AAA4009D6A7E /* CFNetwork.framework */,
+				F7534BE11AF7AA99009D6A7E /* AudioToolbox.framework */,
+				F7534BD51AF7AA6D009D6A7E /* Bolts.framework */,
+				F7534BD61AF7AA6D009D6A7E /* Parse.framework */,
+				F7534BD71AF7AA6D009D6A7E /* ParseCrashReporting.framework */,
+				F7534BD81AF7AA6D009D6A7E /* ParseFacebookUtils.framework */,
+				F7534BD91AF7AA6D009D6A7E /* ParseFacebookUtilsV4.framework */,
+				F7534BDA1AF7AA6D009D6A7E /* ParseUI.framework */,
 				F74B4B581ADD11D600B0C5D9 /* Monsterstartside */,
 				F74B4B6E1ADD11D700B0C5D9 /* MonsterstartsideTests */,
 				F74B4B571ADD11D600B0C5D9 /* Products */,
@@ -102,8 +176,9 @@
 			children = (
 				F7C3C2B21AE677D800860329 /* MapKit.framework */,
 				F7C3C2B01AE677BF00860329 /* CoreLocation.framework */,
-				F74B4B5B1ADD11D600B0C5D9 /* AppDelegate.swift */,
 				F77E37691AED24AD0032CB41 /* Hjem.swift */,
+				F7534BF91AF7AE2A009D6A7E /* PushNotificationController.swift */,
+				F74B4B5B1ADD11D600B0C5D9 /* AppDelegate.swift */,
 				F7DDA8AD1AF0ED06006316E7 /* ShopStart.swift */,
 				F79616591AEFECFF00411FD4 /* Shoppen.swift */,
 				715ED6461AF02F8C005428D6 /* Gadgets.swift */,
@@ -113,8 +188,8 @@
 				F79616491AEE7BF800411FD4 /* Indstillinger.swift */,
 				F7E0F2E71AE11894008DEC96 /* GO.swift */,
 				F7E0F2E91AE119AC008DEC96 /* Aktiv.swift */,
-				F7DDA8B11AF21D09006316E7 /* Monster.gif */,
 				F74B4B641ADD11D600B0C5D9 /* LaunchScreen.xib */,
+				F75A39141AF62E5F00930430 /* Images */,
 				F7DDA8B31AF21F43006316E7 /* SwiftGifCommon */,
 				F74B4B591ADD11D600B0C5D9 /* Supporting Files */,
 				F7C3C3281AE7B88300860329 /* Monsterstartside-Bridging-Header.h */,
@@ -145,6 +220,14 @@
 				F74B4B701ADD11D700B0C5D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75A39141AF62E5F00930430 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F75A39121AF62BB000930430 /* Monster.gif */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		F7DDA8B31AF21F43006316E7 /* SwiftGifCommon */ = {
@@ -203,6 +286,7 @@
 				TargetAttributes = {
 					F74B4B551ADD11D600B0C5D9 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = TUPWQH69HY;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -242,7 +326,7 @@
 				716BC3CB1AEF9A410000D3E9 /* Images.xcassets in Resources */,
 				F7C3C2B61AE780BB00860329 /* Main.storyboard in Resources */,
 				F74B4B661ADD11D600B0C5D9 /* LaunchScreen.xib in Resources */,
-				F7DDA8B21AF21D09006316E7 /* Monster.gif in Resources */,
+				F75A39131AF62BB000930430 /* Monster.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +348,7 @@
 				F7E0F2EA1AE119AC008DEC96 /* Aktiv.swift in Sources */,
 				F74B4B5C1ADD11D600B0C5D9 /* AppDelegate.swift in Sources */,
 				F7DDA8AE1AF0ED06006316E7 /* ShopStart.swift in Sources */,
+				F7534BFA1AF7AE2A009D6A7E /* PushNotificationController.swift in Sources */,
 				F7E0F2E81AE11894008DEC96 /* GO.swift in Sources */,
 				F77E376A1AED24AD0032CB41 /* Hjem.swift in Sources */,
 				F796164A1AEE7BF800411FD4 /* Indstillinger.swift in Sources */,
@@ -396,10 +481,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Monsterstartside/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Move Your Monster";
+				PROVISIONING_PROFILE = "e689f5f2-347a-4e94-a2c6-27405f8f60bc";
 				SWIFT_OBJC_BRIDGING_HEADER = "Monsterstartside/Monsterstartside-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -410,10 +502,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Monsterstartside/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Move Your Monster";
+				PROVISIONING_PROFILE = "e689f5f2-347a-4e94-a2c6-27405f8f60bc";
 				SWIFT_OBJC_BRIDGING_HEADER = "Monsterstartside/Monsterstartside-Bridging-Header.h";
 			};
 			name = Release;
